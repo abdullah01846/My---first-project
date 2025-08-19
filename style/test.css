@@ -1,48 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
-.btn-container{
+.btn_container{
     text-align: center;
 }
+
 .btn{
- color: rgba(255, 255, 255, 1);
+  padding: 11px 12px 11px 12px;
+  color: rgba(255, 255, 255, 1);
+
 font-family: Work Sans;
-font-size: 15px;
+font-size: 13px;
 font-weight: 400;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
-border: none;
-padding: 10px;
-border-radius: 4px;
-
+border-radius: 10px;
 
 background: rgba(82, 195, 3, 1);
+border: none;
 }
 
-
-#hero {
+#hero{
     height: 700px;
-    background-image: linear-gradient(180.00deg, rgba(9.197244644165039 8.92899227142334, 8.92899227142334, 1), rgba(16, 16, 16, 0) 100%), 
-    url('../assets/hero-bg.png');
+    background-image: linear-gradient(180.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),
+     url('../assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  
 }
-.hero-content{
+#hero .hero-content{
     width: 700px;
+
 }
-.ssuptitle {
+#hero .hero-content .subtitle{
  color: rgba(255, 255, 255, 1);
 /* font-family: Work Sans; */
-font-size: 20px;
+font-size: 19px;
 font-weight: 400;
 line-height: 100%;
 letter-spacing: 0%;
@@ -50,29 +49,27 @@ text-align: center;
 opacity: 0.8;
 margin-bottom: 10px;
 
+
 }
-.ttitle{
-color: rgba(255, 255, 255, 1);
-font-family: Work Sans;
-font-size: 40px;
+#hero .hero-content .title{
+ color: rgba(255, 255, 255, 1);
+/* font-family: Work Sans; */
+font-size: 36px;
 font-weight: 600;
 line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
-border-bottom: 20px;
+margin-bottom: 14px;
 }
-        
-.description{
-color: rgba(255, 255, 255, 1);
+#hero .hero-content .desciption{
+ color: rgba(255, 255, 255, 1);
 font-family: Work Sans;
-font-size: 12px;
+font-size: 11px;
 font-weight: 500;
-line-height: 19px;
+line-height: 18px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
-margin-bottom: 30px;
-
+margin-bottom: 18px;
 
 }
-/* card section */
